@@ -1,0 +1,100 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Setup Container */
+#setup-container {
+    padding: 2vw;
+}
+
+/* Setup Options */
+.setup-option {
+    margin-bottom: 1vw;
+}
+
+/* Quiz Container */
+#quiz-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2vw;
+}
+
+/* Question Container */
+#question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Question Formula Styling */
+#question-formula {
+    font-size: 4vw; /* Slightly smaller font size */
+    display: flex;
+    align-items: center;
+}
+
+/* Number and Symbol Styling */
+#number1, #number2, #operation-symbol {
+    margin: 0 0.5vw;
+}
+
+/* Feedback Styling */
+#feedback {
+    font-size: 3vw; /* Slightly smaller font size */
+    margin-top: 2vw;
+}
+
+/* Answer Input */
+#answer {
+    font-size: 3vw; /* Slightly smaller font size */
+    padding: 1vw;
+    width: 70%;
+}
+
+/* Buttons */
+button {
+    font-size: 3vw; /* Slightly smaller font size */
+    padding: 1vw 2vw;
+    margin: 1vw;
+}
+
+/* Correct Answer Styling */
+.correct-answer {
+    font-size: 4vw; /* Slightly smaller font size */
+    color: green;
+    text-align: center;
+}
+
+/* Star Container */
+#star-container {
+    font-size: 6vw; /* Adjust size for the star */
+    color: gold;
+    display: none;
+}
+
+/* Results Container */
+#results-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2vw;
+}
+
+/* Adjustments for different screen sizes */
+@media (max-width: 600px) {
+    #feedback, #question-number, #number1, #number2, #operation-symbol {
+        font-size: 5vw; /* Larger size for smaller screens */
+    }
+    #answer, button {
+        font-size: 4vw; /* Larger size for smaller screens */
+    }
+}
